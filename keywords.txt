@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PinChangeInterrupt   KEYWORD1
+PinChangeInterrput.h KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+attachInterrupt    KEYWORD2
+detachInterrup     KEYWORD2 
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+# Namespace, considering it as a literal
