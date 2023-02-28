@@ -1,0 +1,2 @@
+# ExtPinChangeInterrupt
+Arduino Unoの外部割込み機能を全デジタルピンで使えるように拡張するライブラリです．
