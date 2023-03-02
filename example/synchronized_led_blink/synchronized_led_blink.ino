@@ -3,19 +3,19 @@
 #define ATTACH_PIN 10
 #define LED_PIN    13
 
-void pin_change_handler();
+void pin_change_cb();
 
 PinChangeInterrupt pcint;
 
 void setup() {
-  pcint.attachInterrupt(ATTACH_PIN, pin_change_handler);
+  pcint.attachInterrupt(ATTACH_PIN, pin_change_cb);
 }
 
 void loop() {
   
 }
 
-void pin_change_handler() {
+void pin_change_cb() {
   volatile static bool led_flg = true;
 
   // RISING MODE
