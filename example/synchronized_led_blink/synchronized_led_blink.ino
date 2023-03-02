@@ -3,6 +3,8 @@
 #define ATTACH_PIN 10
 #define LED_PIN    13
 
+void pin_change_handler();
+
 PinChangeInterrupt pcint;
 
 void setup() {
